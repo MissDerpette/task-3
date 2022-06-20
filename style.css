@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-weight: normal;
+}
+.container {
+    display: flex;
+    background-color: blueviolet;
+    gap: 10px;
+    border: 1px;
+    align-items: stretch;
+    align-content: center;    
+}
+
+.left-box{
+    width: 50%;
+
+}
+
+.right-box {
+    background: green;
+    display: flex;
+    width: 50%;
+}
+.val  {
+    margin: 10px;
+    padding: 20px;
+    background: whitesmoke;
+    justify-items: center;
+    align-content: center; 
+}
+
+.grid-item-6 {
+    border-radius: 25px;
+}
+
+.value {
+    display: flex;
+    justify-content: right;
+}
